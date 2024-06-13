@@ -1,0 +1,115 @@
+/* feature css */
+.faq {
+    margin-top: 0;
+    padding: 100px 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-color : white;
+    align-items: center;
+}
+
+.faq .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    border: 4px solid black;
+    font-size: 36px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.faq h1 {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 40px;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #FFBF75    ;
+    text-decoration-color: #FFBF75     ;
+    -webkit-text-underline-position: auto;
+    text-underline-position: auto;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color for better visibility */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section1 .point {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .section1 .icon {
+    font-size: 36px;
+    color: #684DEC; /* Color for the icon */
+    margin-right: 10px;
+  }
+  
+  .section1 h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .section1 h4 {
+    font-size: 18px;
+    margin: 0;
+    color: #555;
+    padding-left: 46px; /* Align text with the start of h3 */
+  }
+  
+
+.txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }
+
+.faq p {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+}
+
+.faq h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.faq img {
+    width: 65px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+}

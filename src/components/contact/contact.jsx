@@ -18,7 +18,7 @@ function ContactComponent() {
                 <SiGmail className="icon" />
                     <h3>Email</h3>
                 </div>
-                <h4>maulanadaffa342@gmail.com</h4>
+                <h4>contact@momee.id</h4>
                 </div>         
                 <div className="section1">
                 <div className="point">

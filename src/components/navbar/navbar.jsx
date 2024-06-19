@@ -39,11 +39,11 @@ function NavbarComponent() {
     aTag.click();
     document.body.removeChild(aTag);
   };
+  
   return (
     <>
-    <Router>
-      {['md'].map((expand) => (
-        <Navbar key={expand} expand={expand} className={`navbar ${scrollStatus ? "scrolled" : ""}`}>
+      <Router>
+        <Navbar expand="md" className={`navbar ${scrollStatus ? "scrolled" : ""}`}>
           <Container fluid>
             <Navbar.Brand href="/">
               <img src={momee_logo} alt="Logo" />
@@ -119,8 +119,7 @@ function NavbarComponent() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-      ))}
-      </ Router>
+      </Router>
     </>
   );
 }

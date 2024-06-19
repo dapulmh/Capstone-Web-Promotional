@@ -12,10 +12,10 @@ nav.navbar {
 
 nav.navbar.scrolled {
     padding: 0px 0;
-    background-color: #121212;
-  }
+    background-color: white;
+}
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: auto;
 }
 
 span.navbar-text {
@@ -45,23 +45,17 @@ span.navbar-text {
     color: black !important;
     font-weight: 500;
     letter-spacing: 0.8px;
-    padding: 0 25px;
-    font-size: 18px;
+    padding: 0 15px;
+    font-size: 16px;
     opacity: 0.75;
     transition: color 0.3s, background-color 0.3s;
-    margin-right: 50px; 
-    
+    margin: 5px 10px;
 }
 
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 75px;
-  }
-
-nav.navbar.scrolled {
-    padding: 0px 0;
-    background-color: white;
-  }
+}
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
@@ -80,7 +74,7 @@ nav.navbar .navbar-toggler:focus {
     border-radius: 5px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .navbar-collapse {
         background-color: white;
     }
@@ -89,6 +83,17 @@ nav.navbar .navbar-toggler:focus {
         color: black !important;
         text-align: center;
         margin: 10px 0; /* Adjust margin on smaller screens */
+        padding: 10px 0; /* Adjust padding on smaller screens */
+        width: 100%; /* Make nav links take full width */
+    }
+
+    .navbar-text {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .button-23 {
+        width: auto; /* Adjust button width on smaller screens */
     }
 }
 

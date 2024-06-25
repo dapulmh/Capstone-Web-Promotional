@@ -16,7 +16,7 @@ function HomeComponent() {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const toRotate = ["Your Best Solution Rental Baby Tools and Needs"];
   const period = 1000;
-  const link_url_playstore ="https://www.youtube.com/watch?v=dQw4w9WgXcQ"; //change to link playstore
+  const link_url_playstore ="https://play.google.com/"; //change to link playstore
 
   useEffect(() => {
     let ticker = setInterval(() => {

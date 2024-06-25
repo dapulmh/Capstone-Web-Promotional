@@ -14,7 +14,7 @@ function VideosComponent() {
                 <Col xs={12} md={6} xl={6}>
             <div className="video-container">
                 <iframe width="720" height="315" 
-                src="https://www.youtube.com/embed/EMa7OMWf2YM?si=YJXqUP2zZPNrbK6B" //change youtube promotional video
+                src="https://www.youtube.com/embed/XUMiObehAYA?si=GqmRa7LzbViNHZu9" //change youtube promotional video
                 title="YouTube video player" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

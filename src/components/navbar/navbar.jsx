@@ -14,7 +14,8 @@ function NavbarComponent() {
 
   const [linkStatus, setLink] = useState("home");
   const [scrollStatus, setScroll] = useState(false);
-  const url_download = import.meta.env.VITE_API_KEY + "vite.svg";
+  // const url_download = import.meta.env.VITE_API_KEY + "vite.svg";
+  const url_download = "https://drive.google.com/drive/folders/1LD-rdP1ltqX3tpwCzQcjzsZEJjbldx6Q?usp=sharing";
 
   useEffect(() => {
     const onScroll = () => {
